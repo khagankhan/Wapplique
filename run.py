@@ -8,7 +8,7 @@ from func_timeout import func_set_timeout
 
 # Edit only this when you change target.
 # Use {} where the wasm file path should go.
-webassembly_implementation_cmd = ' /users/khan22/wasmoi/targets/wasmer/target/release/wasmer "{}"'
+webassembly_implementation_cmd = '/users/khan22/wasmoi/targets/wasm-micro-runtime/product-mini/platforms/linux/build/iwasm "{}"'
 
 TIME_UNIT = 1000000  # us
 TIMEOUT_SECONDS = 10
